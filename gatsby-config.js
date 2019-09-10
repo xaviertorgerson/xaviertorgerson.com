@@ -4,7 +4,7 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Cara - Gatsby Starter Portfolio`,
+    siteTitleAlt: `Xavier Torgerson - Portfolio`,
   },
   plugins: [
     {
@@ -20,12 +20,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Cara - @lekoarts/gatsby-theme-cara`,
-        short_name: `Cara`,
-        description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+        name: `Xavier Torgerson - Portfolio`,
+        short_name: `Xavier`,
+        description: `Dev Portfolio`,
         start_url: `/`,
-        background_color: `#141821`,
-        theme_color: `#f6ad55`,
+        background_color: `#D8E2DC`,
+        theme_color: `#CDDC39`,
         display: `standalone`,
         icons: [
           {
